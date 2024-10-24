@@ -1,0 +1,42 @@
+.iframe-full {
+    height: 82vh;
+}
+
+header {
+    flex-wrap: wrap !important;
+    position: relative;
+}
+
+
+.text-4xl {
+    display: block;
+    max-height: 100%;
+    margin-bottom: 2vw;
+}
+
+.text-4xl img {
+    width: 100vw !important;
+    max-height: 100% !important;
+    object-fit: cover;
+      height: fit-content !important;
+     content: url(https://santaimgrp.ecxon.com.br/img/imagens_variadas/hydrus/nobrehalloween.gif);
+    
+}
+
+button#basket {
+    top: 75%;
+    right: 4vw;
+}
+
+.packages-list {
+    margin-top: -2%;
+}
+
+header .px-10.w-full.flex.items-center.justify-center.space-x-8 {
+    padding-left: 0;
+}
+button.flex.items-center.space-x-2.cursor-pointer.ml-auto.p-2.px-4.rounded-full.text-2xl.absolute.right-8 {
+    position: absolute;
+    top: 16.4vw;
+    right: 3vw;
+}
